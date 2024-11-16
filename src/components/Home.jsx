@@ -70,10 +70,10 @@ const Home = () => {
                 <Col xl={6} lg={8} className='mx-auto  border border-1 border-secondary p-5'>
                 <Row  className="">
                     <Col lg={3}  className=" py-2">
-                        <label htmlFor="" className='fw-medium'>Gold Live rate:</label>
+                        <label htmlFor="" className='fw-medium'>Gold Live rate(gram):</label>
                     </Col>
                     <Col  className="">
-                        <input type="number" placeholder='Enter Gold Live Rate'  onChange={(e)=>setgoldprice(e.target.value)} className='w-100 p-2 rounded-2 border-1 border-secondary' />
+                        <input type="number" placeholder='Enter Gold Live Rate(gram)'  onChange={(e)=>setgoldprice(e.target.value)} className='w-100 p-2 rounded-2 border-1 border-secondary' />
                     </Col>
                 </Row>
                 <Row className="mt-3">
